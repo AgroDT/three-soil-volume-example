@@ -1,0 +1,28 @@
+{
+  "name": "@agrodt/three-soil-volume-example",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@agrodt/three-soil-volume-shader": "^0.1.0",
+    "@agrodt/three-zstd-volume-loader": "^0.1.1",
+    "dat.gui": "^0.7.9",
+    "three": "^0.174.0"
+  },
+  "devDependencies": {
+    "@types/dat.gui": "^0.7.13",
+    "@types/three": "^0.174.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.2"
+  },
+  "packageManager": "pnpm@10.6.5",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}
